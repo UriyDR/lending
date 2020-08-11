@@ -1,0 +1,659 @@
+.wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    max-width: 50px;
+    display: inline-block;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.banner {
+    min-height: 100vh;
+    
+    position: relative;
+}
+
+.row-top {
+    padding: 25px 0;
+}
+
+.top-block-menu nav a {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.top-block-menu nav span {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "
+    Noto Sans", sans-serif, "Apple Color Emoji", 
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: absolute;
+    right: -100px;
+
+}
+
+.row-top .slogan {
+    color: #ffdb47;
+    font-family: myriad-arabic, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+
+.row-middle .row-middle_title {
+    text-align: center;
+}
+
+.row-middle{
+    min-height: 400px;
+    align-items: center;
+}
+
+.row-top {
+    align-items: center;
+    padding: 25px 0;
+}
+
+.row-middle_arroy-right, .row-middle_arroy-left {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #ffdb47;
+}
+
+.row-middle_arroy-left div,.row-middle_arroy-right div {
+    border: 2px solid #6d95c0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.row-middle_arroy-left div:hover,.row-middle_arroy-right div:hover{
+    background: #ffdb47;
+    color: #fff;
+}
+
+.row-middle_sub {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.row-middle_main {
+    font-size: 54px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.row-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.row-bottom span {
+    padding: 10px;
+    color: #fff;
+    background: #709dca;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aboutus {
+    margin-top: 100px;
+    height: 625px;
+    width: 100%;
+    display: flex; 
+}
+
+.aboutus__img {
+    width: 50%;
+}
+
+.aboutus img{
+    width: 100%;
+    height: 100%; 
+}
+
+.about-text{
+    background-color: #ffc155;
+    width: 50%;
+    
+}
+
+.about-text p{
+    font-size: 14px;
+    font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    line-height: 24px;
+    color: #fff;
+    padding-left: 75px;
+    padding-top: 15px;
+    padding-right: 125px;
+}
+
+.about-text .about-text__bottom {
+    padding-bottom: 25px;
+}
+
+.about-text h2 {
+    color: #fff;
+    padding-top: 90px;
+    padding-left: 75px;
+    
+}
+
+.about-text span {
+    margin-left: 75px; 
+    padding: 18px 35px;
+    color: #fff;
+    background: #e7ad48;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #cb8d21;
+}
+
+.portfolio hr {
+    max-width: 230px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 3px;
+    background: #ffc155; 
+    border: 0;
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: #709dca;
+    margin: 100px 0 30px 0;
+}
+
+.portfolio p {
+    text-align: center;
+    margin: 35px 0 130px 0;
+}
+
+.portfolio-albom {
+    display: flex;
+    flex-wrap: wrap;  
+    overflow-x: hidden;  
+    width: 100%;
+}
+
+.portfolio-photo {
+    width: 25%;
+    overflow: hidden;
+}
+
+.portfolio-photo img {
+    width: 100%;
+}
+
+
+.otzivi {
+    position: relative;
+    height: 500px;
+}
+
+.otzivi h2 {
+    color: #709dca;
+    text-align: center;
+    font-size: 30px;
+    margin: 75px 0 30px 0;
+}
+
+.otzivi hr {
+    max-width: 230px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 1px;
+    background: #ffc155; 
+    border: 0;
+}
+
+.otzivi-1, .otzivi-2 {
+    max-width: 450px;
+    max-height: 150px;
+    background: #f6f3f3;   
+    
+}
+
+#otzivi-text {
+    padding: 25px 25px 0 25px;
+    font-size: 13px; 
+    font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.otzivi-1 {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.otzivi-2 {
+    position: absolute;
+    top: 200px;
+    right: 230px;
+}
+
+.otzivi-1 img, .otzivi-2 img {
+    height: 50px;
+    margin: 0;
+}
+
+#otzivi-name {
+    font-weight: bold;
+}
+
+.writeus {
+    height: 450px;
+    width: 100%;
+    background-color: #eef0f0;
+}
+
+.writeus h2 {
+    text-align: center;
+    color: #709dca;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.writeus hr {
+    color: #ffc155;
+    width: 230px;
+    background: #ffc155;
+    margin-top: 28px;
+}
+
+.writeus {
+    position: relative;
+}
+
+.form .form-us {
+    position: absolute;
+    top: 150px;
+    left: 155px;
+}
+
+.form .form-us .writeus__fio, .form .form-us .writeus__mail, .form .form-us .writeus__tel, .form .form-us .writeus__send {
+    width: 560px;
+    height: 40px;
+}
+
+.form .form-us .writeus__fio, .form .form-us .writeus__mail, .form .form-us .writeus__tel, .form .form-us .writeus__send, .form .writeus__text {
+    border: 4px solid #ffc155;
+} 
+
+.form .form-us .writeus__send {
+    color: #fff;
+    background: #273a43;
+}
+
+.form .writeus__text {
+    position: absolute;
+    right: 155px;
+    top: 150px;
+    width: 550px;
+    height: 150px;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.container-1 .box1 img {
+    height: 20px;
+}
+
+.container1 {
+    display: flex;
+    background: #273a43;
+}
+
+.box1{
+   width: 255px;
+   margin: 60px 0 100px 165px;
+   color: #9da1a4;
+}
+
+.box1 span {
+    padding-left: 10px;
+    font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.box1 p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.box1 img {
+    width: 40px;
+}
+
+.box2{
+   margin: 60px 160px 0 190px;
+   font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fff;
+    width: 250px;
+}
+
+.box2 h2 {
+    padding-bottom: 30px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.box2 p {
+    font-size: 13.5px;
+}
+.box2 img {
+    height: 20px;
+}
+
+.box2 p span {
+    padding-left: 20px;
+}
+
+.box3{
+    width: 250px;
+    margin: 60px 230px 50px 0px;
+}
+
+.box3 h2 {
+    font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+
+.box3 p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9da1a4;
+    font-size: 13.5px;
+    line-height: 20px;
+}
+
+.container2 {
+    display: flex;
+    height: 90px;
+    background: #172227;
+    position: relative;
+}
+
+.container2 span {
+    color: #c4c4c4;
+}
+
+.container2 img {
+    height: 30px;
+}
+
+.container2 .container2__img {
+    position: absolute;
+    top: 30px;
+    right: 165px;
+}
+
+.container2 .container2__textcenter {
+    position: absolute;
+    top: 30px;
+    right: 40%
+}
+
+.container2 .container2__textleft {
+    position: absolute;
+    top: 30px;
+    left: 165px;
+}
+
+#data{
+    color: #518096;
+}
+
+.box1 span {
+    color: #ffdb47;
+    font-family: myriad-arabic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.features-item__img img{
+    width: 50px;
+    margin: 10px;
+}
+
+.features__item{
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+.features-item__title {
+    font-weight:300;
+    margin-bottom: 15px;
+}
+
+.features__title, .features__slogan {
+    text-align: center;
+}
+
+.features__title{
+color: #709dca;
+font-size: 30px;
+margin-top: 100px;
+}
+
+.features__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pop-upp {
+    top: 0;
+    width: 500px;
+    margin: 15% auto;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(42, 40, 79, .6);
+}
+
+.overlay form {
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    height: 250px;
+}
+
+.pop-upp__elem input, .pop-upp__elem textarea {
+    width: 250px;
+}
+
+.pop-upp__elem {
+    margin: 10px;
+}
+
+.pop-upp h2 {
+    color: #fff;
+}
+
+#close-popupp{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.row-bottom span{
+    position: relative;
+}
+
+.row-bottom span:before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFC90D;
+    transition: 0.3s all;
+}
+
+.row-bottom span:hover:before {
+    left: 100%;
+    transform: rotate(180deg);
+}
+
+.overlay {
+    display: none;
+}
+
+#overlay.active{
+    display: block;
+}
+
+.dark {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(42, 40, 79, .6);
+    display: none;
+}
+
+#window {
+    top: 100px;
+    left: 0;
+    width: 20%;
+    height: 400px;
+    margin: 50px auto;
+    background: gold;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    z-index: 150;
+    position: relative;
+}
+
+#window span {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#window span:hover {
+    background: red;
+    transition: .2s;
+}
+
+.form {
+    width: 90%;
+    margin: 5px auto 10px auto;
+    text-align: center;
+}
+.form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 70%;
+}
+
+.form textarea {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.form h2 {
+    margin: 35px auto 15px auto;
+}
+
+#dark.active {
+    display: block;   
+}
+
+.dark {
+    display: none;
+}
+
+#alertMessage {
+    display: none;
+    color: red;
+    font-size: 18px;
+}
+
+#alertMessage.show {
+    display: block;
+}
+
+.invalid {
+    border: 3px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+   
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+
+@media screen and (max-width: 200px) {
+    
+}
